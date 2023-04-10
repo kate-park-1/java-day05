@@ -5,5 +5,13 @@ public class ControllableDemo {
     TV tv = new TV();
     tv.turnOn();
     tv.turnOff();
+    tv.repair();
+
+    Computer computer = new Computer();
+    computer.turnOn();
+    computer.turnOff();
+    computer.repair();
+
+    Controllable.reset();
   }
 }

@@ -3,6 +3,11 @@ package ex5.sec03;
 public class TV implements Controllable{
   // 수리 기능 구현
   @Override
+  public void repair() {
+    System.out.println("TV를 수리한다.");
+  }
+
+  @Override
   public void turnOn() {
     System.out.println("TV를 켠다.");
   }
